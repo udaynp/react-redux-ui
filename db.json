@@ -1,0 +1,118 @@
+{
+  "voters": [
+    {
+      "firstName": "Pinky",
+      "lastName": "Pegasus",
+      "address": "123 rainbow bridge",
+      "city": "Glitters",
+      "birthdate": "4-20-2020",
+      "email": "pinky@pegasusinc.com",
+      "phone": "123-456-7899",
+      "id": 1
+    }
+  ],
+  "elections": [
+    {
+      "id": 1,
+      "description": "Would you like free popcorn with every class session",
+      "choices": [
+        {
+          "id": 1,
+          "choice": "Yes"
+        },
+        {
+          "id": 2,
+          "choice": "No"
+        }
+      ]
+    },
+    {
+      "description": "Who let the dogs out",
+      "choices": [
+        {
+          "id": 1,
+          "choice": "ME"
+        },
+        {
+          "id": 2,
+          "choice": "Not me"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "description": "Is summer better than winter?",
+      "choices": [
+        {
+          "id": 1,
+          "choice": "Yes"
+        },
+        {
+          "id": 2,
+          "choice": "No"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "description": "What day is it anyway?",
+      "choices": [
+        {
+          "id": 1,
+          "choice": "not sure"
+        },
+        {
+          "id": 2,
+          "choice": "super not sure"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "description": "Should I go to sleep",
+      "choices": [
+        {
+          "id": 1,
+          "choice": "yes"
+        },
+        {
+          "id": 2,
+          "choice": "no"
+        }
+      ],
+      "id": 5
+    }
+  ],
+  "votes": [
+    {
+      "id": 1,
+      "electionId": 1,
+      "userId": 1,
+      "choiceId": 1
+    },
+    {
+      "electionId": 2,
+      "userId": 1,
+      "choiceId": 1,
+      "id": 3
+    },
+    {
+      "electionId": 3,
+      "userId": 1,
+      "choiceId": 1,
+      "id": 4
+    },
+    {
+      "electionId": 4,
+      "userId": 1,
+      "choiceId": 2,
+      "id": 5
+    },
+    {
+      "electionId": 2,
+      "userId": 1,
+      "choiceId": 1,
+      "id": 6
+    }
+  ]
+}

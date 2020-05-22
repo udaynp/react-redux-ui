@@ -1,0 +1,9 @@
+{
+  "voters": [],
+  "elections": [],
+  "votes": [],
+  "editVoterId": -1,
+  "authUser": null,
+  "activeElection": null,
+  "viewElectionId": -1
+}

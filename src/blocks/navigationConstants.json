@@ -1,0 +1,7 @@
+[
+  { "id": 1, "url": "/", "caption": "Home" },
+  { "id": 2, "url": "/registervoter", "caption": "Register Voter" },
+  { "id": 3, "url": "/capturevotes", "caption": "Vote" },
+  { "id": 4, "url": "/createelection", "caption": "Create Election" },
+  { "id": 5, "url": "/electionresults", "caption": "View Elections" }
+]

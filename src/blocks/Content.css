@@ -1,0 +1,13 @@
+#content {
+  grid-area: content;
+}
+
+#content > header {
+  background-color: white;
+  color: violet;
+  padding: 10px;
+}
+
+#content > section {
+  padding: 10px;
+}

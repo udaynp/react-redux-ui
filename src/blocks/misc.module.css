@@ -1,0 +1,5 @@
+.tableHeaderCell,
+.tableDataCell {
+  padding: 4px;
+  border: 1px solid black;
+}
